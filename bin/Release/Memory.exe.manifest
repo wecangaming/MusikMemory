@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Memory.exe" version="1.0.0.14" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons8-musik-64.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Memory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Memory.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC-Manifestoptionen
+             Wenn Sie die Ebene der Benutzerkontensteuerung für Windows ändern möchten, ersetzen Sie den 
+             Knoten "requestedExecutionLevel" wie folgt.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Durch Angabe des Elements "requestedExecutionLevel" wird die Datei- und Registrierungsvirtualisierung deaktiviert. 
+            Entfernen Sie dieses Element, wenn diese Virtualisierung aus Gründen der Abwärtskompatibilität
+            für die Anwendung erforderlich ist.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Memory.exe" size="1908736">
+      <assemblyIdentity name="Memory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gWq50p7J7Fk/3zT2XO9TD1nrVGIe5IU5+lYjiSCgO3k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icons8-musik-64.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1pWGnVwbN/mJHxutU0GeccFG6EQZnnEbz2W/WA7sqPw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Memory.exe.config" size="916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ohO5Emvw8kJTdZKOZkMFZ09fvRky+o9T/TD3flTZQjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\ACDC-Highway-To-Hell.wav" size="1834138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>suPV5slE6WcyYSmhEvMb/WmIAPe6QJ2b8s1oWYGIDkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Alle-Farben-Fading.wav" size="1889430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qr9FaYYWJndosK+PsRqx/jjZrr4NTVmPhKQePSNN8TI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\ApoRed-Babawagen.wav" size="2483938">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EHPYnG5mqNHH7vsMhuJne67a4XGR3CiOOAL07pH5WzI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Aqua-Barbie-Girl.wav" size="2156770">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HYFgpFzQo5GFA0hrODxIeyGCvOaXWJ+xqcXkCyPL070=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Armin-van-Buuren-Blah.wav" size="1755824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SGUPuI4rgxLHnSgdKimG1oFNb9McVLXbkVHKY8em2Cw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\ATC-Around-The-World.wav" size="2009322">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rH5CrAhFH+Zrf0lxZ/b7/8JNuNt3nf4En7utElmPX0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Baauer-Harlem-Shake.wav" size="1990890">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/hAUsRPg5Hb7uflCGkEGVsaVN471umlsfkGIBmMPqQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Bibi-How-It-Is.wav" size="1792678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jKZv70gWxVws4CN3niJWpSCyio4OVEGM+gCPcE+orho=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Bye.wav" size="442640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I3J4+QXPfBcs5aFVuWZr4NEi1lHk71LwUt1NuaxGlcw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Coldrain-We-re-Not-Alone.wav" size="2781974">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pc7UX7DKd+9+zh56Aocdn77nwC0gsnadmrh0tZJ7OgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\DieLochies-DURCHGEHEND-ONLINE.wav" size="2679030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5hg9xv/iVjFMUaRZs/2UqnTgEV5okelZRqUhgdE3R+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Ed-Sheeran-Shape-of-You.wav" size="1718944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UX3juFFgh/zqlIF8YyPTU2F6eVyhKiglIXO/vjWXL5s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Ingo-Saufen.wav" size="2617634">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TJBpJLQc/rjMvEZ8HtlUCLNhkFfTc+M3hc5B2GJCDCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Julien-Bam-Bruder-muss-los.wav" size="1954042">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NLSV7fWRXU1Y/JnqPOGF/ExK3HTP+GD203ISdnVPtnk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Julien-Bam-Mach-die-Robbe.wav" size="2502308">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>whQ3L9bM5o+y/65GnzqSSm4WbQUIOl41l0mAisMMG64=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Julien-Bam-RAPPERN.wav" size="1824998">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>toiEPYmBPaUaiqOppoxcZrJkJZjeTYjjlvkC8S9hbEA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Julien-Bam-SANDMANN.wav" size="2531562">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QXd+llhvRXmoBDB60w5mtZBhG9nAGSImX6jWy+6jZVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Leon-Machere-Copacabana.wav" size="2165934">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vnWQft73K438ZINfoiAtvc+5Pkg0aD/ilFwTYeb7Hk0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Luis-Fonsi-Despacito.wav" size="2304234">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MR/lF2wQguhq9DZnyrngtFXW9nSIdI3vkuJgS5ihkLc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\NaughtyBoy-Lalala.wav" size="2424070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zW6Yo9mloG/D+UyYfTl84WTuVRCEXLwHlkewLGR1wWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Night-Lovell-Dark-Light.wav" size="2064626">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yev6C/VF3XfQfLYU+tvCVHQKY2N3JE9BrnHisMCF0zE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Noisestrom-Crab-Rave.wav" size="2511514">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nYpDFAFQNrvZ/WNRjFJOyBLzaH+eBlTU0Z9FI+G7fuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Olexesh-MAGISCH.wav" size="1838734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+/witJuPq7sE0ntovCiBQ6M+PYfJo1948p8KNN//8Bc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Peter-Schilling-Terra-Titanic.wav" size="1751210">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZihPtczuAlKDEYDu5BFYtUYeWLEWeV0THX0Vztg8nWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Pietro-Lombardi-PHÄNOMENAL.wav" size="2110642">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ohDDYJG7qCgbymA6YE+FxtG7ujJh8mK1xqPMCLI9aVE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Pietro-Lombardi-Senorita.wav" size="2179846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>quR73Cf7dce19mmmG3R7N8fx19R0GYlOSBb5+tjY4vI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\PSY-GANGNAM-STYLE.wav" size="2354916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZpcQAv783rE8jTRLnVrADcDVUrphLhAENUfr8cTbJ3s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\RagnBone-Man-Human.wav" size="2308838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>waukWm99CE0AcTOllE8+1uUuWMfnyQ1ecLuwSN6iAfM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Robbie-Williams-Love-My-Life.wav" size="2248874">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CcRmhgf8lnhnusKbW/DNGrwawrt8s4tPkWxp7dlXitc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\The-Chainsmokers-Coldplay-Something.wav" size="2166058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sQqlsAxfhrVYgNpiZuxP0f6wp31Q4ZrWO8baXelU83c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\Wham-Last-Christmas.wav" size="2787578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xHTdC2BvZDzDiyZU2Tx6Ek2YxM8mo9Z8/oma1+u8cUs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musik\YTITTY-Sommer.wav" size="2262750">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zL0mKNTxvVXAbEdHvbVR/9BOa7KMeMlfJ/Y+yDYK6KM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Eine Liste der Windows-Versionen, unter denen diese Anwendung getestet
+           und für die sie entwickelt wurde. Wenn Sie die Auskommentierung der entsprechenden Elemente aufheben,
+           wird von Windows automatisch die kompatibelste Umgebung ausgewählt. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
